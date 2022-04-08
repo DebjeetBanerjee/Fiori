@@ -1,0 +1,18 @@
+<mvc:View xmlns:core="sap.ui.core"
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns="sap.m" 
+    controllerName="routing.controller.View2"
+     xmlns:html="http://www.w3.org/1999/xhtml"
+    displayBlock="true">
+    <Shell id="shell">
+        <App id="app"> 
+            <pages> 
+                <Page id="page2" navButtonPress="onNavBack" showNavButton="true" title="{i18n>title}">
+                    <content>
+                        <Text xmlns="sap.m" text="Page 2" id="text2"/>
+                    </content>
+                </Page>
+            </pages> 
+        </App>
+    </Shell>
+</mvc:View>

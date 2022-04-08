@@ -1,0 +1,17 @@
+<mvc:View
+    controllerName="routing.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page1" title="{i18n>title}">
+                    <Button id = "Button" text = "Click here" press="onPress"/> 
+                    <content />
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>
